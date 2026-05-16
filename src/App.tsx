@@ -97,15 +97,22 @@ export default function App() {
         </section>
 
         <section id="process" className="section section-split reveal active">
-          <div>
-            <p className="tag">How it Works</p>
-            <h2>Fast scheduling. Professional finish. Minimal disruption.</h2>
+          <div className="process-copy">
+            <div>
+              <p className="tag">How it Works</p>
+              <h2>Fast scheduling. Professional finish. Minimal disruption.</h2>
+            </div>
+            <ol className="steps">
+              <li><span>1</span>Quick site review and estimate.</li>
+              <li><span>2</span>Clear preparation and schedule confirmation.</li>
+              <li><span>3</span>Efficient service with quality walkthrough.</li>
+            </ol>
           </div>
-          <ol className="steps">
-            <li><span>1</span>Quick site review and estimate.</li>
-            <li><span>2</span>Clear preparation and schedule confirmation.</li>
-            <li><span>3</span>Efficient service with quality walkthrough.</li>
-          </ol>
+          <img
+            className="process-image"
+            src="/images/parking_lot_aerial.png"
+            alt="Freshly striped parking lot viewed from above"
+          />
         </section>
 
         <section id="contact" className="section reveal active">
