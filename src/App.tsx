@@ -346,7 +346,7 @@ export default function App() {
               <div className="contact-info">
                 <div className="contact-item">
                   <strong>Phone / Text</strong>
-                  <a href="tel:9548805733">(954) 880-5733</a>
+                  <a href="tel:9543006026">(954) 300-6026</a>
                 </div>
                 <div className="contact-item">
                   <strong>Email</strong>
